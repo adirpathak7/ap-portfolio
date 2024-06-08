@@ -57,7 +57,7 @@ export default function Contact() {
           <div className="mb-7">
             <textarea type="message" id="message" name='message' className="text-gray-900 text-lg rounded-md block w-full p-2 bg-gray-200 dark:placeholder-gray-400 sm:w-96 md:w-full" placeholder="Enter your message..." />
           </div>
-          <input type="submit" value='Send' className="buttonshadow text-white rounded-lg text-1xl w-24 sm:w-auto px-5 py-2.5 text-center bg-gray-700 hover:bg-neutral-950 cursor-pointer hover:border font-semibold" />
+          <input type="submit" value='Send' className="buttonshadow text-white rounded-lg text-1xl w-24 sm:w-auto px-5 py-2.5 text-center bg-gray-700 hover:text-purple-600 hover:bg-gray-300 cursor-pointer hover:border font-semibold" />
         </form>
       </div>
     </>

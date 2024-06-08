@@ -39,24 +39,24 @@ export default function Banner() {
                         </div>
 
                         <div className="icons-container flex space-x-5 mt-10 md:mt-24">
-                            <a href='https://github.com/adirpathak7' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all">
+                            <a href='https://github.com/adirpathak7' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all hover:text-purple-600 hover:bg-gray-300">
                                 <i className="fab fa-github text-2xl"></i>
                             </a>
 
-                            <a href='https://www.linkedin.com/in/aaditya-pathak-5708a628b' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all">
+                            <a href='https://www.linkedin.com/in/aaditya-pathak-5708a628b' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all hover:text-purple-600 hover:bg-gray-300">
                                 <i className="fab fa-linkedin text-2xl"></i>
                             </a>
 
-                            <a href='https://x.com/Adiiiirp7?t=7n2z8tngPWBNVFVlJTqGog' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all">
+                            <a href='https://x.com/Adiiiirp7?t=7n2z8tngPWBNVFVlJTqGog' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all hover:text-purple-600 hover:bg-gray-300">
                                 <i className="fab fa-twitter text-2xl"></i>
                             </a>
 
-                            <a href='https://www.instagram.com/mr.adiiii7' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all">
+                            <a href='https://www.instagram.com/mr.adiiii7' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all hover:text-purple-600 hover:bg-gray-300">
                                 <i className="fab fa-instagram text-2xl"></i>
                             </a>
                         </div>
                         <div className='mt-7'>
-                            <Link to='/Contact' className='buttonshadow px-3 py-2 bg-gray-800 hover:bg-neutral-950 hover:border rounded-lg text-white font-bold text-lg md:text-xl w-36 md:w-44'>Contact</Link>
+                            <Link to='/Contact' className='buttonshadow px-3 py-2 bg-gray-800 hover:border rounded-lg text-white font-bold text-lg md:text-xl w-36 md:w-44 hover:text-purple-600 hover:bg-gray-300'>Contact</Link>
                         </div>
                     </div>
                 </div>

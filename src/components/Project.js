@@ -57,7 +57,7 @@ function ServiceCard({ image, title, description, githubUrl }) {
                     </p>
                 </div>
                 <div className="flex justify-center items-center py-2">
-                    <a href={githubUrl} target='_blank' className="buttonshadow text-white hover:border bg-gray-800 hover:bg-neutral-950 px-4 py-2 rounded-md text-lg">
+                    <a href={githubUrl} target='_blank' className="buttonshadow text-white hover:border bg-gray-800 hover:text-purple-600 hover:bg-gray-300 px-4 py-2 rounded-md text-lg">
                         <span className="mr-2">
                             <i className="fa-brands fa-github" />
                         </span>{" "}
