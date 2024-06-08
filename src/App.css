@@ -1,37 +1,369 @@
-.App {
-  text-align: center;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.roboto-thin-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.roboto-light-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.roboto-bold-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  font-family: Raleway, serif !important;
+}
+
+.buttonshadow:hover {
+  box-shadow: 0px 0px 7px #9333ea;
+  transition: 0.3s ease;
+}
+
+.boxshadow:hover {
+  box-shadow: 0px 1px 10px #9333ea;
+  scale: calc(1.03);
+  transition: 0.3s ease;
+  
+}
+
+.boxshadow {
+  border: solid rgba(255, 255, 255, 0.865);
+}
+
+.servicesshadow:hover {
+  box-shadow: 0px 1px 13px #9333ea;
+  transition: 0.5s ease-out;
+  background-color: black;
+  color: white
+}
+
+.servicesshadow {
+  scale: calc(0.9);
+}
+
+.card {
+  transition: all .8s ease 0s !important;
+  box-shadow: 0 1px 5px 3px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover {
+  box-shadow: 0 1px 5px 3px #9333ea, 0 1px 5px 3px #9333ea;
+  transform: scale(1.05);
+  /* To maintain hover scale effect */
+}
+
+.skillsbox1,
+.skillsbox2,
+.skillsbox3,
+.skillsbox4,
+.skillsbox5,
+.skillsbox6,
+.skillsbox7,
+.skillsbox8,
+.skillsbox9,
+.skillsbox10,
+.skillsbox11,
+.skillsbox12,
+.skillsbox13,
+.skillsbox14,
+.skillsbox15,
+.skillsbox16,
+.skillsbox17,
+.skillsbox18 {
+  width: 210px;
+  height: 210px;
+  box-shadow: 16px 14px 20px #0a0a0a;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  background: #0a0a0a;
+  margin: 10px;
+  border: none;
 }
 
-.App-link {
-  color: #61dafb;
+.skillsbox1::before,
+.skillsbox2::before,
+.skillsbox3::before,
+.skillsbox4::before,
+.skillsbox5::before,
+.skillsbox6::before,
+.skillsbox7::before,
+.skillsbox7::before,
+.skillsbox8::before,
+.skillsbox9::before,
+.skillsbox10::before,
+.skillsbox11::before,
+.skillsbox12::before,
+.skillsbox13::before,
+.skillsbox14::before,
+.skillsbox15::before,
+.skillsbox16::before,
+.skillsbox17::before,
+.skillsbox18::before {
+  content: "";
+  width: 160%;
+  height: 160%;
+  position: absolute;
+  animation: rotate 2s linear infinite;
 }
 
-@keyframes App-logo-spin {
+.skillsbox1::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox2::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox3::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox4::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox5::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox5::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox6::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox7::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox8::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox9::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox10::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox11::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox12::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox13::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+  border: none;
+}
+
+.skillsbox14::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox15::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox16::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox17::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox18::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
+.skillsbox1::after,
+.skillsbox2::after,
+.skillsbox3::after,
+.skillsbox4::after,
+.skillsbox5::after,
+.skillsbox6::after,
+.skillsbox7::after,
+.skillsbox7::after,
+.skillsbox8::after,
+.skillsbox9::after,
+.skillsbox10::after,
+.skillsbox11::after,
+.skillsbox12::after,
+.skillsbox13::after,
+.skillsbox14::after,
+.skillsbox15::after,
+.skillsbox16::after,
+.skillsbox17::after,
+.skillsbox18::after {
+  content: "";
+  width: 200px;
+  height: 200px;
+  background: #0a0a0a no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: inset 20px 20px 20px #0a0a0a;
+}
+
+
+.skillsbox1::after {
+  background-image: url('./images/Java.svg');
+}
+
+.skillsbox2::after {
+  background-image: url('./images/Spring.svg');
+}
+
+.skillsbox3::after {
+  background-image: url('./images/Php.svg');
+}
+
+.skillsbox4::after {
+  background-image: url('./images/NodeJs.svg');
+}
+
+.skillsbox5::after {
+  background-image: url('./images/Js.svg');
+}
+
+.skillsbox6::after {
+  background-image: url('./images/React.svg');
+}
+
+.skillsbox7::after {
+  background-image: url('./images/Jsp.svg');
+}
+
+.skillsbox8::after {
+  background-image: url('./images/Html.svg');
+}
+
+.skillsbox9::after {
+  background-image: url('./images/Css.svg');
+}
+
+.skillsbox10::after {
+  background-image: url('./images/Tailwind.svg');
+}
+
+.skillsbox11::after {
+  background-image: url('./images/Bootstrap.svg');
+}
+
+.skillsbox12::after {
+  background-image: url('./images/MySql.svg');
+}
+
+.skillsbox13::after {
+  background-image: url('./images/Oracle.svg');
+}
+
+.skillsbox14::after {
+  background-image: url('./images/MongoDB.svg');
+}
+
+.skillsbox15::after {
+  background-image: url('./images/Linux.svg');
+}
+
+.skillsbox16::after {
+  background-image: url('./images/VSCode.svg');
+}
+
+.skillsbox17::after {
+  background-image: url('./images/NetBeans.svg');
+}
+
+.skillsbox18::after {
+  background-image: url('./images/Postman.svg');
+}
+
+@keyframes rotate {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
