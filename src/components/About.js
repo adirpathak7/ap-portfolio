@@ -21,22 +21,26 @@ export default function About() {
                     </div>
 
                     <div className="w-full md:w-1/2 flex justify-center mt-20">
-                        <div className="space-y-4 w-11/12 md:w-2/3">
-                            <h1 className='text-2xl md:text-4xl font-semibold'>
+                        <div className="space-y-4 w-11/12 md:w-2/3 font-sans">
+                            <h1 className='text-2xl md:text-4xl'>
                                 {aboutData.title}
                             </h1>
 
                             <p className='text-xl md:text-base pt-4'>
                                 Hi Everyone,
                             </p>
-                            <p className='text-sm md:text-base'>I'm Aaditya Pathak, a dedicated Full-Stack Web Developer from Surat, India.</p>
+                            <p className='text-sm md:text-base'>I'm <c className='text-purple-600'> Aaditya Pathak</c>, a dedicated <c className="text-purple-600"> Full-Stack Web Developer</c> from <c className="text-purple-600"> Surat, India.</c></p>
 
                             <p className="text-sm md:text-base">
-                                With a robust foundation in both front-end and back-end technologies, I have developed a diverse skill set that enables me to build comprehensive web applications.
+                                With a robust foundation in both <c className='text-purple-600'>front-end</c> and <c className='text-purple-600'>back-end technologies</c>, I have developed a diverse skill set that enables me to build comprehensive web applications.
                             </p>
 
                             <p className="text-sm md:text-base">
-                                My journey in programming began with a strong interest in web technologies and has evolved to encompass a wide range of modern development tools and frameworks.
+                                My journey in programming began with a strong interest in web technologies and has evolved to encompass a wide range of modern <c className='text-purple-600'> development tools</c> and <c className='text-purple-600'>frameworks</c>.
+                            </p>
+
+                            <p className="text-sm md:text-base">
+                            I have worked as <c className='text-purple-600'>Full Stack Web Developer Trainee</c> at <a href='https://www.njgroup.in/' target='_blank' className='text-purple-600'>NJ India Invest Pvt. Ltd.</a>
                             </p>
                         </div>
                     </div>

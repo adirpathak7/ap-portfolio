@@ -6,8 +6,8 @@ import Project from './Project';
 import Skill from './Skill';
 import Contact from './Contect';
 import Footer from './Footer';
-import Star from './Star';
 import '../App.css';
+import logo from '../images/logo.png';
 
 const resumeURL = "Aaditya Resume.pdf";
 
@@ -41,7 +41,9 @@ const Navbar = ({ userName, resumeURL }) => {
             {/* <Star /> */}
             <div ref={navbarRef} className="bg-zinc-950 text-white fixed w-full z-50 backdrop-blur-xl">
                 <div className="h-20 flex justify-between items-center px-4 md:px-10">
-                    <div className="text-4xl font-bold cursor-pointer ml-16">{userName}</div>
+                    <a href='/'>
+                        <img src={logo} alt="logo" className='cursor-pointer ml-6 h-16' />
+                    </a>
                     <div className="md:hidden">
                         <button
                             onClick={toggleMenu}
