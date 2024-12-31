@@ -12,7 +12,7 @@ export default function Banner() {
             strings: ["Full-Stack Web Developer", "Freelancer", "Java Developer", "React Developer"],
             startDelay: 100,
             typeSpeed: 80,
-            backSpeed: 60,    
+            backSpeed: 60,
             backDelay: 60,
             loop: true
         })

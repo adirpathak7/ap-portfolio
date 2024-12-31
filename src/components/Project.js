@@ -1,6 +1,7 @@
 import React from 'react';
 import BDCS from '../images/BDCS.jpg';
 import HRMS from '../images/HRMS.jpg';
+import TaskZen from '../images/TaskZen.jpg';
 import LMS from '../images/LMS.jpg';
 import '../App.css';
 
@@ -26,11 +27,17 @@ export default function Project() {
                         githubUrl="https://github.com/adirpathak7/HRMS"
                     />
                     <ServiceCard
+                        image={TaskZen}
+                        title="TaskZen"
+                        description="TaskZen is a freelancer platform built with Spring Boot, JavaScript, JSF, and Tailwind CSS. It empowers clients to post tasks, freelancers to bid and work on multiple projects simultaneously, and facilitates secure payments through Razorpay. Key features include client approval of freelancers, detailed freelancer profiles, and robust security with JWT-based authentication and authorization"
+                        githubUrl="https://github.com/adirpathak7/TaskZen"
+                    />
+                    {/* <ServiceCard
                         image={LMS}
                         title="LMS"
                         description="Learning Management System: E-learning platform developed using ReactJS, Spring, MySQL, Tailwind CSS. Instructors manage courses, create content & assign user roles. Learners discover & purchase courses, access materials, & track progress. Dynamic UI (ReactJS), robust backend (Spring), secure storage (MySQL). Showcases expertise in full-stack development for modern e-learning."
                         githubUrl="https://github.com/adirpathak7/lms"
-                    />
+                    /> */}
                 </div>
             </div>
         </>
