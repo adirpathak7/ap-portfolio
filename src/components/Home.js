@@ -85,7 +85,7 @@ const Navbar = ({ userName, resumeURL }) => {
                         <NavItem link="/Project" text="Project" onClick={closeMenu} />
                         <NavItem link="/Skill" text="Skill" onClick={closeMenu} />
                         <div className="space-x-20">
-                            <a href={resumeURL} download="Aaditya Resume.pdf" onClick={closeMenu} className="buttonshadow text-center py-2 bg-gray-700 hover:text-purple-600 hover:bg-gray-300 rounded-lg hover:border text-white text-lg font-bold w-24 hidden md:block">
+                            <a href={resumeURL} download="Resume.pdf" onClick={closeMenu} className="buttonshadow text-center py-2 bg-gray-700 hover:text-purple-600 hover:bg-gray-300 rounded-lg hover:border text-white text-lg font-bold w-24 hidden md:block">
                                 Resume
                             </a>
                         </div>
