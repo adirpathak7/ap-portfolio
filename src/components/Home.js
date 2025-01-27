@@ -9,7 +9,7 @@ import Footer from './Footer';
 import '../App.css';
 import logo from '../images/logo.png';
 
-const resumeURL = "Aaditya Resume.pdf";
+const resumeURL = "Resume.pdf";
 
 const Navbar = ({ userName, resumeURL }) => {
     const [isOpen, setIsOpen] = useState(false);
