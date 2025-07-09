@@ -9,7 +9,7 @@ export default function Banner() {
     let element = useRef(null);
     useEffect(() => {
         let typed = new Typed(element.current, {
-            strings: ["Full-Stack Web Developer", "Freelancer", "Java Developer", "React Developer"],
+            strings: ["Full Stack Developer", "Freelancer", "Spring Boot Developer", ".NET Core Developer", "React Developer"],
             startDelay: 100,
             typeSpeed: 80,
             backSpeed: 60,
@@ -43,7 +43,7 @@ export default function Banner() {
                                 <i className="fab fa-github text-2xl"></i>
                             </a>
 
-                            <a href='https://www.linkedin.com/in/aaditya-pathak-5708a628b' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all hover:text-purple-600 hover:bg-gray-300">
+                            <a href='https://www.linkedin.com/in/aaditya-r-pathak' target='_blank' className="buttonshadow w-10 h-10 rounded-full flex justify-center items-center bg-gray-800 hover:scale-125 transition-all hover:text-purple-600 hover:bg-gray-300">
                                 <i className="fab fa-linkedin text-2xl"></i>
                             </a>
 

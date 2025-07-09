@@ -14,7 +14,7 @@ export default function Footer() {
         </div>
 
         <p className="text-center md:text-center mb-5 md:mb-0">
-          Copyright &copy; 2024&nbsp;
+          Copyright &copy; 2025&nbsp;
           <Link to='/' className='text-purple-500 hover:underline'>AP</Link>
         </p>
         

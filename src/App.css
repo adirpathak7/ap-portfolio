@@ -93,7 +93,7 @@ body {
   box-shadow: 0px 1px 10px #9333ea;
   scale: calc(1.03);
   transition: 0.3s ease;
-  
+
 }
 
 .boxshadow {
@@ -139,7 +139,8 @@ body {
 .skillsbox15,
 .skillsbox16,
 .skillsbox17,
-.skillsbox18 {
+.skillsbox18,
+.skillsbox19 {
   width: 210px;
   height: 210px;
   box-shadow: 16px 14px 20px #0a0a0a;
@@ -172,7 +173,8 @@ body {
 .skillsbox15::before,
 .skillsbox16::before,
 .skillsbox17::before,
-.skillsbox18::before {
+.skillsbox18::before,
+.skillsbox19::before {
   content: "";
   width: 160%;
   height: 160%;
@@ -257,6 +259,10 @@ body {
   background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
 }
 
+.skillsbox19::before {
+  background-image: conic-gradient(#9333ea 20deg, transparent 120deg);
+}
+
 .skillsbox1::after,
 .skillsbox2::after,
 .skillsbox3::after,
@@ -275,7 +281,8 @@ body {
 .skillsbox15::after,
 .skillsbox16::after,
 .skillsbox17::after,
-.skillsbox18::after {
+.skillsbox18::after,
+.skillsbox19::after {
   content: "";
   width: 200px;
   height: 200px;
@@ -357,6 +364,10 @@ body {
 
 .skillsbox18::after {
   background-image: url('./images/Postman.svg');
+}
+
+.skillsbox19::after {
+  background-image: url('./images/csharp.svg');
 }
 
 @keyframes rotate {

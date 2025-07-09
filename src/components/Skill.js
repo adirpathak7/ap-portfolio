@@ -12,6 +12,9 @@ export default function Skill() {
                     <div className="skillsbox1 boxshadow p-2 flex justify-center rounded-md hover:text-purple-600 scale-105 transition-all">
                     </div>
 
+                    {/* <div className="skillsbox19 boxshadow p-2 flex justify-center rounded-md hover:text-purple-600 scale-105 transition-all">
+
+                    </div> */}
                     <div className="skillsbox2 boxshadow p-2 flex justify-center rounded-md hover:text-purple-600 scale-105 transition-all">
 
                     </div>
@@ -70,19 +73,19 @@ export default function Skill() {
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-28">
                     <div className="skillsbox15 boxshadow p-2 flex justify-center rounded-md hover:text-purple-600 scale-105 transition-all">
-                        
+
                     </div>
 
                     <div className="skillsbox16 boxshadow p-2 flex justify-center rounded-md hover:text-purple-600 scale-105 transition-all">
-                        
+
                     </div>
 
                     <div className="skillsbox17 boxshadow p-2 flex justify-center rounded-md hover:text-purple-600 scale-105 transition-all">
-                        
+
                     </div>
 
                     <div className="skillsbox18 boxshadow p-2 flex justify-center rounded-md  hover:text-purple-600 scale-105 transition-all">
-                        
+
                     </div>
 
                 </div>

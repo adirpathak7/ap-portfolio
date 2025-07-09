@@ -1,51 +1,64 @@
-import React, { useState } from 'react';
-import Devloper from '../images/DevloperGif2.gif';
+import React from 'react';
+import DeveloperGif from '../images/DevloperGif2.gif';
 
 export default function About() {
-
-    let [aboutData] = useState({
-        image: Devloper,
-        title: 'Let me introduce myself',
-        description1: ``,
-        description2: ``,
-    });
-
     return (
-        <>
-            <div className="main-container py-8 md:py-24 bg-neutral-950 text-white">
-                <h1 className='text-3xl md:text-4xl text-center font-semibold pb-4 md:pb-8 py-4 md:py-8 mb-2 md:mb-4 -mt-4 hover:text-purple-600'>About Me</h1>
+        <div className="main-container py-16 px-4 md:px-20 bg-neutral-950 text-white">
+            <h1 className="text-3xl md:text-4xl text-center font-bold mb-12 mt-4 hover:text-purple-600 transition-all duration-300">
+                About Me
+            </h1>
 
-                <div className="flex flex-col md:flex-row md:-mt-7">
-                    <div className="w-full md:w-1/2 flex justify-center bg-neutral-950">
-                        <img src={Devloper} alt="Developer Gif" className='w-[90vw] md:w-3/4 object-contain m-5 md:m-10' />
-                    </div>
+            <div className="flex flex-col md:flex-row items-center justify-between gap-10">
+                {/* Image Section */}
+                <div className="w-full md:w-1/2 flex justify-center">
+                    <img
+                        src={DeveloperGif}
+                        alt="Developer Animation"
+                        className="w-[90vw] md:w-[80%] max-w-md rounded-lg shadow-lg object-contain"
+                    />
+                </div>
 
-                    <div className="w-full md:w-1/2 flex justify-center mt-20">
-                        <div className="space-y-4 w-11/12 md:w-2/3 font-sans">
-                            <h1 className='text-2xl md:text-4xl'>
-                                {aboutData.title}
-                            </h1>
+                {/* Text Section */}
+                <div className="w-full md:w-1/2 font-sans text-left space-y-6">
+                    <h2 className="text-2xl md:text-3xl font-semibold">
+                        Let me introduce myself
+                    </h2>
 
-                            <p className='text-xl md:text-base pt-4'>
-                                Hi Everyone,
-                            </p>
-                            <p className='text-sm md:text-base'>I'm <c className='text-purple-600'> Aaditya Pathak</c>, a dedicated <c className="text-purple-600"> Full-Stack Web Developer</c> from <c className="text-purple-600"> Surat, India.</c></p>
+                    <p className="text-base md:text-lg leading-relaxed">
+                        Hi, I'm <span className="text-purple-500 font-semibold">Aaditya Pathak</span>, a passionate and detail-oriented
+                        <span className="text-purple-500 font-semibold"> Full Stack Web Developer</span> from
+                        <span className="text-purple-500 font-semibold"> Surat, India</span>.
+                    </p>
 
-                            <p className="text-sm md:text-base">
-                                With a robust foundation in both <c className='text-purple-600'>front-end</c> and <c className='text-purple-600'>back-end technologies</c>, I have developed a diverse skill set that enables me to build comprehensive web applications.
-                            </p>
+                    <p className="text-base md:text-lg leading-relaxed">
+                        I'm currently pursuing my <span className="text-purple-500">Master’s in Information and Communication Technology (M.Sc. ICT)</span> from VNSGU, after completing my
+                        <span className="text-purple-500"> BCA with 80.80%</span>.
+                    </p>
 
-                            <p className="text-sm md:text-base">
-                                My journey in programming began with a strong interest in web technologies and has evolved to encompass a wide range of modern <c className='text-purple-600'> development tools</c> and <c className='text-purple-600'>frameworks</c>.
-                            </p>
+                    <p className="text-base md:text-lg leading-relaxed">
+                        I’ve trained at <span className="text-purple-500 font-semibold">TriBase Solutions</span> where I built <strong>College2Career</strong> – a full-stack college placement system using
+                        <strong> .NET Core 8, React.js, React Native, Cloudinary, JWT</strong>, and even an AI chatbot.
+                    </p>
 
-                            <p className="text-sm md:text-base">
-                            I have worked as <c className='text-purple-600'>Full Stack Web Developer Trainee</c> at <a href='https://www.njgroup.in/' target='_blank' className='text-purple-600'>NJ India Invest Pvt. Ltd.</a>
-                            </p>
-                        </div>
-                    </div>
+                    <p className="text-base md:text-lg leading-relaxed">
+                        At <span className="text-purple-500 font-semibold">NJ India Invest Pvt. Ltd.</span>, I developed scalable
+                        <strong> Spring Boot REST APIs</strong>, interactive UIs in <strong>React.js</strong>, and maintained a robust
+                        <strong> MySQL database</strong> structure.
+                    </p>
+
+                    <p className="text-base md:text-lg leading-relaxed">
+                        My toolkit includes: <span className="text-purple-400">Java, C#, JavaScript, SQL, React, Spring Boot, .NET Core, Tailwind CSS, MySQL, Git, Postman, Razorpay, JWT, Cloudinary, SMTP</span>.
+                    </p>
+
+                    <p className="text-base md:text-lg leading-relaxed">
+                        I love building clean, functional, and scalable web applications that solve real-world problems with great user experience and solid backend logic.
+                    </p>
+
+                    {/* <p className="text-base md:text-lg leading-relaxed">
+                        Let’s build something amazing together 🚀
+                    </p> */}
                 </div>
             </div>
-        </>
+        </div>
     );
 }
