@@ -85,8 +85,8 @@ function ServiceCard({ image, title, description, githubUrl }) {
                         rel='noopener noreferrer'
                         className="buttonshadow text-white hover:border bg-gray-800 hover:text-purple-600 hover:bg-gray-300 px-4 py-2 rounded-md text-lg"
                     >
-                        <i className="fa-brands fa-github mr-2" />
-                        Visit
+                       <i className="fas fa-external-link-alt" />
+                        &nbsp;&nbsp;Visit
                     </a>
                 </div>
             </div>
