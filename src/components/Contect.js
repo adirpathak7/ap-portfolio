@@ -35,6 +35,9 @@ export default function Contact() {
             alert("Thanks for your response.");
             form.current.reset(); // Reset the form fields
             setLoading(false); // Set loading state to false  
+            document.getElementById("name").innerHTML=''
+            document.getElementById("email").innerHTML=''
+            document.getElementById("message").innerHTML=''
           },
           (error) => {
             console.log('FAILED...', error.text);
